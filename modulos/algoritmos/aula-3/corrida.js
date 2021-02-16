@@ -5,7 +5,7 @@ const circuito = criarCircuito(3, 4);
 tunarCarro(listaCarros[2], "motor", 500);
 tunarCarro(listaCarros[2], "pneu", 200);
 const corre = realizarCorrida(3);
-
+//criar função que passa dados do circuito
 console.log(corre)
 
 function realizarCorrida(carros) {

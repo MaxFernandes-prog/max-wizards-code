@@ -17,13 +17,10 @@ console.log(luta);
 // O Itachi sempre vence
 
 function fight(ninja1, ninja2) {
-  if (ninja1.name === ninja2.name) {
+  if (nome(ninja1, ninja2)) {
     return `O ninja não pode lutar consigo mesmo`;
   } else {
-    if (ninja1.name != "Itachi" && ninja2.name != "Itachi") {
-      ninja1.life -= ninja2.dmg;
-      ninja2.life -= ninja1.dmg;
-
+    if (itachis(ninja1, ninja2)) {
       if (ninja1.life > ninja2.life) {
         return `Em um embate entre ${ninja1.name} e ${ninja2.name}, o vencedor é: ${ninja1.name}!`;
       } else if (ninja2.life > ninja1.life) {
@@ -35,6 +32,26 @@ function fight(ninja1, ninja2) {
       return `Em um embate entre ${ninja1.name} e ${ninja2.name}, o vencedor é: Itachi!`;
     }
   }
+}
+
+function nome(ninja1, ninja2) {
+  if (ninja1.name === ninja2.name)
+    return true;
+  else
+    return false;
+}
+
+function itachis(ninja1,ninja2) {
+    if(ninja1.name != "Itachi" && ninja2.name != "Itachi")
+        return true;
+    else   
+        return false;
+}
+
+function vida(ninja1, ninja2) {
+    ninja1.life -= ninja2.dmg;
+    ninja2.life -= ninja1.dmg;
+    return [ninja1.life, ninja2.life];
 }
 
 console.log(`
