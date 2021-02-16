@@ -1,0 +1,30 @@
+.container{
+    padding: 25px;
+
+}
+
+.card{
+    width: 300px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-cont{
+    padding: 10px;
+}
+
+.game img{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.contents{
+    padding: 10px 40px 10px 40px;
+}
+
+.contents p{
+    color: #FFFFFF;
+}
