@@ -1,30 +1,41 @@
-.container{
-    padding: 25px;
-
+body {
+  background-image: url(https://www.ps4wallpapers.com/wp-content/uploads/2017/03/PS4Wallpapers.com_PS-Symbols-1056x594.png);
 }
 
-.card{
-    width: 300px;
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+h1{
+    text-align: center;
+    color: purple;
+    text-shadow: 0.03em 0.03em 0.05em #ffffff;
 }
 
-.card-cont{
-    padding: 10px;
+.container {
+  padding: 25px;
 }
 
-.game img{
-    height: 250px;
-    display: flex;
-    justify-content: center;
+.card {
+  float: left;
+  width: 300px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2.5px;
 }
 
-.contents{
-    padding: 10px 40px 10px 40px;
+.card-cont {
+  padding: 10px;
 }
 
-.contents p{
-    color: #FFFFFF;
+.game img {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+}
+
+.contents {
+  padding: 10px 40px 10px 40px;
+}
+
+.contents p {
+  color: #ffffff;
 }
