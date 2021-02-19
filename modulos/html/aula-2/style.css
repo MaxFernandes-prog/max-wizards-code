@@ -1,0 +1,105 @@
+body {
+  background-image: url("https://media.istockphoto.com/vectors/colorful-smooth-gradient-color-background-wallpaper-inspired-by-new-vector-id1139981490?k=6&m=1139981490&s=170667a&w=0&h=J_YNbb5IsvY4zWThVnw6EQ3CVk7jp05N1iXraInQNjo=");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  min-height: 600px;
+  width: 500px;
+  vertical-align: middle;
+  margin: 4% 0 0 30%;
+  box-shadow: 5px 5px 5px #000000;
+}
+
+header {
+  min-width: 500px;
+  height: 60px;
+}
+
+figure {
+  width: 480px;
+  float: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+.bloco {
+  width: 360px;
+}
+
+.fig {
+  padding: 0 0 0 0;
+  float: left;
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  width: 200px;
+}
+
+.text p {
+  padding-left: 6px;
+  margin: 8px 0 0 0;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+}
+
+.profile {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.follow {
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 90px;
+  background-color: #ffffff;
+  border-color: #00afff;
+  outline: none;
+  border-top-left-radius: 12%;
+  border-top-right-radius: 12%;
+  border-bottom-left-radius: 12%;
+  border-bottom-right-radius: 12%;
+}
+
+.follow:hover {
+  background-color: #000000;
+  height: 28px;
+  width: 88px;
+  outline: none;
+  border-color: #ffffff;
+  border-top-left-radius: 12%;
+  border-top-right-radius: 12%;
+  border-bottom-left-radius: 12%;
+  border-bottom-right-radius: 12%;
+}
+
+.immg {
+  width: 5%;
+  height: 5%;
+}
+
+.pic {
+  background-color: #000000;
+  background-image: url(https://i.makeagif.com/media/12-30-2017/2yvryC.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  padding: 10px 0 10px 0;
+  width: 500px;
+  height: 450px;
+}
+
+.pic:hover {
+  background-position: center;
+  background-size: 200%;
+}
