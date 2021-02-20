@@ -1,5 +1,17 @@
 body {
   background-image: url(https://www.ps4wallpapers.com/wp-content/uploads/2017/03/PS4Wallpapers.com_PS-Symbols-1056x594.png);
+  background-repeat: repeat-n;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header figure img{
+  width: 50px;
+  border-radius: 50%;
 }
 
 h1{
@@ -13,13 +25,16 @@ h1{
 }
 
 .card {
-  float: left;
-  width: 300px;
-  background-color: black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 2.5px;
+    float: left;
+    width: 300px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 2.5px;
+    border-radius: 20px;
 }
 
 .card-cont {
@@ -38,4 +53,9 @@ h1{
 
 .contents p {
   color: #ffffff;
+}
+
+footer{
+  background-color: #f8f545;
+  text-align: center;
 }
