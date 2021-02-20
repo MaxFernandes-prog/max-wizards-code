@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-image: url("https://media.istockphoto.com/vectors/colorful-smooth-gradient-color-background-wallpaper-inspired-by-new-vector-id1139981490?k=6&m=1139981490&s=170667a&w=0&h=J_YNbb5IsvY4zWThVnw6EQ3CVk7jp05N1iXraInQNjo=");
   background-repeat: no-repeat;
@@ -96,12 +101,12 @@ figure {
 }
 
 .pic {
-  background-color: #000000;
+/*  background-color: #000000;
   background-image: url(https://i.makeagif.com/media/12-30-2017/2yvryC.gif);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
-  margin: 10px 0 10px 0;
+  margin: 10px 0 10px 0;*/
   width: 500px;
   height: 450px;
 }
@@ -176,4 +181,66 @@ footer figure img:hover {
 .nome {
   color: black;
   margin: 5px 0 0 10px;
+}
+
+.banner_slide {
+  display: block;
+  height: 293px;
+  width: 600 px;
+  margin: auto;
+  margin-top: 20px;
+  position: relative;
+}
+
+.banner_slide li {
+  list-style: none;
+  position: absolute;
+}
+
+.banner_slide img {
+  margin: auto;
+  opacity: 0;
+  visibility: hidden;
+  height: 420px;
+  width: 500px;
+  vertical-align: top;
+}
+
+.banner_slide input {
+  display: none;
+}
+
+.banner_slide label {
+  background-color: #6623d3;
+  bottom: 10px;
+  cursor: pointer;
+  display: block;
+  height: 10px;
+  position: absolute;
+  width: 10px;
+  z-index: 10;
+}
+
+.banner_slide li:nth-child(1) label {
+  left: 10px;
+  background-color: #ff0000;
+  border-radius: 50%;
+}
+
+.banner_slide li:nth-child(2) label {
+  left: 40px;
+  background-color: #ae00ff;
+  border-radius: 50%;
+}
+
+.banner_slide li:nth-child(3) label {
+  left: 70px;
+  background-color: #00afff;
+  border-radius: 50%;
+}
+
+.banner_slide li input:checked ~ img {
+  opacity: 1;
+  visibility: visible;
+  z-index: 10;
 }
