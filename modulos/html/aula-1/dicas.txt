@@ -1,0 +1,6 @@
+o ctrl + space = dicas de funções
+o nome do recurso html/css + enter = recurso vai completo
+no CSS = id chama com #       class chama com .
+id sempre tem preferência sobre class
+
+usar box-size: border-box;

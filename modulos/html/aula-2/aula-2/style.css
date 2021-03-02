@@ -1,7 +1,13 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
 body {
   background-image: url("https://media.istockphoto.com/vectors/colorful-smooth-gradient-color-background-wallpaper-inspired-by-new-vector-id1139981490?k=6&m=1139981490&s=170667a&w=0&h=J_YNbb5IsvY4zWThVnw6EQ3CVk7jp05N1iXraInQNjo=");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .principal {
@@ -57,31 +63,32 @@ figure {
   border-radius: 50%;
 }
 
-.follow {
+button {
+  color: #00afff;
   cursor: pointer;
   align-items: center;
   justify-content: center;
   height: 30px;
   width: 90px;
-  background-color: #ffffff;
-  border-color: #00afff;
   outline: none;
-  border-top-left-radius: 12%;
-  border-top-right-radius: 12%;
-  border-bottom-left-radius: 12%;
-  border-bottom-right-radius: 12%;
+  background-color: #ffffff;
+  border: 2.5px solid #00afff;
+  border-radius: 5px;
 }
 
-.follow:hover {
+button:hover {
   background-color: #000000;
   height: 28px;
   width: 88px;
   outline: none;
-  border-color: #ffffff;
-  border-top-left-radius: 12%;
-  border-top-right-radius: 12%;
-  border-bottom-left-radius: 12%;
-  border-bottom-right-radius: 12%;
+  border: solid #ffffff;
+}
+
+.right:hover{
+  width: 25px;
+  height: 30px;
+  viewBox: 0 0 408 408;
+  cursor: pointer;
 }
 
 .immg {
@@ -90,7 +97,7 @@ figure {
   height: 5%;
 }
 
-.immg:hover{
+.immg:hover {
   width: 6%;
   height: 6%;
 }
