@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../img/wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 1304px;
+  height: 650px;
+}
+
+header {
+  width: 100%;
+  height: 14%;
+  background-color: aliceblue;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.left {
+  width: 40%;
+  height: 100%;
+  float: left;
+  align-items: right;
+  justify-content: center;
+}
+
+.name {
+  width: 54%;
+  height: 100%;
+  display: flex;
+  float: right;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  margin: 0 0 0 5px;
+}
+
+.name p {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+  display: flex;
+  float: right;
+}
+
+.name span {
+  font-family: Calibri, sans-serif;
+  font-size: 18px;
+  display: flex;
+}
+
+section {
+  width: 100%;
+  height: 83%;
+}
+
+.right {
+  width: 60%;
+  height: 100%;
+  float: right;
+  align-items: center;
+  justify-content: center;
+}
+
+.right .options {
+  margin: 0 0 0 5%;
+  width: 300px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right a {
+  transition: 500ms;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+  height: 100%;
+  font-size: 24px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.right a:hover{
+  transition: 500ms;
+  background-color: #d9a6dd;
+}
+
+#left {
+  width: 40%;
+  height: 100%;
+  float: left;
+  justify-content: center;
+}
+
+#left figure {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  float: right;
+  margin: 30% 0 0 0;
+}
+
+#left img {
+  height: 400px;
+  width: 400px;
+  transform: translateX(-18%) translateY(-8.5%);
+  object-fit: cover;
+  object-position: bottom;
+}
+
+#right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#right p{
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+footer {
+  height: 10%;
+  align-items: center;
+  justify-content: center;
+  background-color: #5a3e5e;
+}
+
+.contacts {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.whatsapp {
+  width: 30%;
+  height: 100%;
+  align-self: center;
+  justify-content: center;
+}
+
+.whatsapp img {
+  float: left;
+  margin: 3% 0 0 0;
+}
+
+.email {
+  width: 30%;
+  height: 100%;
+  display: flex;
+}
+
+.contact {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+
+.contacts p {
+  font-weight: bolder;
+}
+
+#copyright {
+  width: 16%;
+  justify-content: center;
+  align-items: center;
+}
