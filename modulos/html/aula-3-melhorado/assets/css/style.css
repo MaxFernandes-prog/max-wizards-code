@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 1286px;
+  height: 696px;
+  background-image: url("../img/ImmaterialBonyHalicore-size_restricted.gif");
+  background-size: 100%;
+  background-repeat: repeat;
+}
+
+header {
+  width: 101.4%;
+  height: 10%;
+}
+
+.left_h {
+  width: 40%;
+  height: 100%;
+  float: left;
+  align-items: right;
+  justify-content: center;
+}
+
+.name {
+  width: 54%;
+  height: 100%;
+  display: flex;
+  float: right;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+}
+
+.name p {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+  display: flex;
+  float: right;
+}
+
+.name span {
+  font-family: Calibri, sans-serif;
+  font-size: 18px;
+  display: flex;
+}
+
+.right_h {
+  width: 60%;
+  height: 100%;
+  float: right;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.right_h .options {
+  margin: 0 0 0 18%;
+  width: 300px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right_h a {
+  transition: 500ms;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+  height: 100%;
+  font-size: 24px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.right_h a:hover {
+  font-size: 26px;
+  transition: 500ms;
+  color: #000000;
+  background-color: #e5d9e6;
+}
+
+section {
+  height: 80%;
+}
+
+.left_s {
+  width: 40%;
+  height: 100%;
+  float: left;
+  justify-content: center;
+}
+
+.left_s figure {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  float: right;
+  margin: 30% 0 0 0;
+}
+
+.left_s img {
+  height: 400px;
+  width: 400px;
+  transform: translateX(-18%) translateY(-8.5%);
+  object-fit: cover;
+  object-position: bottom;
+}
+
+#about_s{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+iframe{
+  width: 80%;
+  height: 90%;
+  transition: 200ms;
+}
+
+.center_s {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center_s figure {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 5% 0 0 0;
+}
+
+.center_s img {
+  height: 800px;
+  width: 800px;
+  transform: translateX(-18%) translateY(-8.5%);
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.right_s {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.right_s p {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-family: 'Questrial', sans-serif;
+  font-size: 20pt;
+}
+
+footer {
+  width: 101.4%;
+  height: 10%;
+  background-color: #cfb5ff;
+}
+
+.left_f {
+  width: 20%;
+  height: 100%;
+  float: left;
+  align-items: left;
+  justify-content: left;
+  display: flex;
+  flex-direction: row;
+}
+
+.left_f img {
+  margin: 5pt 0 0 5pt;
+  transition: 700ms;
+}
+
+.left_f img:hover {
+  margin: 5pt 0 0 5pt;
+  width: 25pt;
+  height: 25pt;
+  cursor: pointer;
+}
+
+#contact {
+  width: 35px;
+  height: 50px;
+}
+
+.right_f {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  float: right;
+  align-items: center;
+  color: #000000;
+}
+
+.right_f p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+}
